@@ -24,6 +24,7 @@ jobs:
           AQUA_SECRET: ${{ secrets.AQUA_SECRET }}
           TRIVY_USERNAME: ${{secrets.TRIVY_USERNAME}}
           TRIVY_PASSWORD: ${{secrets.TRIVY_PASSWORD}}
-          AQUA_URL: https://api.asia-1.supply-chain.cloud.aquasec.com
-          CSPM_URL: https://asia-1.api.cloudsploit.com
+          AQUA_URL: https://api.eu-1.supply-chain.cloud.aquasec.com
+          CSPM_URL: https://eu-1.api.cloudsploit.com
           TRIVY_RUN_AS_PLUGIN: 'aqua'
+
